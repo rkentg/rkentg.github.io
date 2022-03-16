@@ -20,6 +20,14 @@ body{
     height: 20px;
 }
 
+.coinspic{
+    height: 50px;
+    width: 50px;
+}
+
+.links{
+    display: inline;
+}
 .navbar
 {
     background-image: linear-gradient(to right, #2568FB,#FECD45);
@@ -54,6 +62,14 @@ body{
 .logotexts{
     color:white;
     text-align: center;
+}
+
+h4{
+    display: inline;
+}
+
+.prices{
+    display: inline;
 }
 
 /* banner section */
@@ -169,7 +185,13 @@ body{
 
 
 /* Trending Nft Games Section */
+#trendinggames{
+    padding: 80px 0;
+}
 
+.gamestitle{
+    padding-top: 50px;
+}
 
 
 

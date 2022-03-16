@@ -1,13 +1,20 @@
-var btc = document.getElementById("bitcoin")
-var liveprice= {
-    "async": true,
-    "scoosdomain": true,
-    "url" : "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+var axs = document.getElementById("bitprice");
+var sandbox = document.getElementById("sandbox");
 
-    "method": "GET",
-    "headers": {}
-}
 
-$.ajax(liveprice).done(function(response){
-    btc.innerHTML =response.bitcoin.usd;
-})
+var liveprice = {
+  async: true,
+  scoosdomain: true,
+  url: "https://api.coingecko.com/api/v3/simple/price?ids=the-sandbox%2Cvigorus&vs_currencies=usd",
+  method: "GET",
+  headers: {},
+  
+};
+
+
+
+$.ajax(liveprice).done(function (a) {
+  axs.innerHTML = a.vigorus.usd
+});
+
+
