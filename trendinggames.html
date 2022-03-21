@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://kit.fontawesome.com/3415108b08.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"rel="stylesheet"/> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Trending Games</title>
+</head>
+
+<body>
+
+     <!-- NavBar Section -->
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">                      
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/nftg.png"></a>
+          <h1 class="text-light  maintitle  ">NFT GEYMZ</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+           <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link " aria-current="page" href="project.html">
+                  <div>Home</div></a>
+              </li>
+              <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link" href="#whyinvest">
+                   <div>To invest or not?</div></a>
+              </li>
+              <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link" href="News.html"><div> News</div</a>
+              </li>  
+              <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link" href="trendinggames.html"><div><i class="fa fa-gamepad" aria-hidden="true"> </i>Trending NFT Games</div></a>
+              </li>
+              <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link" href="trendingcoins.html"><div><i class="fa-brands fa-bitcoin"> </i>Trending coins </div></a>
+              </li>
+              <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link" href="FAQs.html"><div>FAQs</div></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <coingecko-coin-price-marquee-widget  coin-ids="axie-infinity,decentraland,smooth-love-potion,the-sandbox,illuvium,pegaxy-stone,vigorus,gala,wax,theta-token,star-atlas,bitcoin,ethereum" currency="usd" background-color=" #f8f9fa" locale="en"></coingecko-coin-price-marquee-widget>
+  </section>
+
+  <!-- Banner Section -->
+
+  <section id="banner">
+      <img src="/images/wave3.png" class="bottom-img">
+  </section>
+
+
+  
+ <!-- Trending Nft Games -->
+ <section id="trendinggames">
+    <div class="container ">
+      <h1 class="title text-center">Trending NFT Games</h1>
+      <div class="row">
+        <div class="col-md-8 gamestitle">
+          <img class="img-thumbnail" src="images/axie.jpg">
+            <a class="btn btn-warning" data-bs-toggle="collapse" href="#axieinfo" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <h1>1. Axie Infinity</h1>
+            </a>
+
+            <h4> <img  class="img-fluid rounded coinspic" src="images/axscoin.png">Axs</h4>
+            <p class="prices">$<span id="axsprice"></span></p>
+            <h4> <img  class="img-fluid rounded coinspic" src="images/slp.jpg">Slp</h4>
+            <p class="prices">$<span id="slpprice"></span></p>
+          
+            
+            
+          
+        </div>
+        <div class="collapse" id="axieinfo">
+          <div class="card card-body ">
+            Axie Infinity borrows heavily from the Pokemon game series and adds its own blockchain twist to give the finished product an even more exciting feel. In this Ethereum-based game, players breed and collect NFT-based digital pets called Axies for the core purpose of battling other players. Each individual Axies has its own genetic imprint. Therefore, the weaknesses and strengths of Axies are passed down to their offspring. <br> <br> As expected, these digital pets are tradeable on Ethereum NFT marketplaces, and the price of each depends on their rareness and unique traits. To start playing the game, you have to purchase 3 Axies. For each quest, player-versus-player (PVP) battle, and adventure mode you scale, you receive Smooth Love Potion (SLP) – the platform’s native ERC-20 utility token – as a reward. <Br> <Br>
+             For every attempt to breed a new Axie, you must pay a specific amount of SLPs, which you can also purchase at exchanges. Another ERC20 token native to Axie Infinity is Axis Infinity Shard (AXS), which functions as the platform’s governance token. It will also anchor the game’s staking service scheduled to go live at some point in 2021.Learn more in our deep dive on 
+             <a href="https://coinmarketcap.com/alexandria/article/what-is-axie-infinity"  class="d-inline">Axie Infinity.</a>
+          </div> 
+        </div>
+
+        <div class="col-md-8 gamestitle">
+          <img class="img-thumbnail" src="images/godsunchained.jpg">
+            <a class="btn btn-warning" data-bs-toggle="collapse" href="#godsinfo" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <h1>2. Gods Unchained</h1>
+            </a>
+            <h4> <img  class="img-fluid rounded coinspic" src="images/godscoin.png">Gods</h4>
+              <p class="prices">$<span id="godsprice"></span></p>
+          
+        </div>
+       
+        <div class="collapse" id="godsinfo">
+          <div class="card card-body">
+            Gods Unchained is a free-to-play game designed to infuse elements of NFT into a familiar card trading gaming genre. Players accumulate cards by purchasing them from other players or winning PVP matchups where the quality of cards and the gaming skill of players often determine the winner. Notably, more emphasis is being placed on skills and strategy. This is because the game utilizes a ranked game mode where players with the same ratings are matched. <Br> <Br>  You win matches when your gameplay causes your opponent’s life to drop to zero before yours. For every win, you receive experience points. As soon as the experience bar is filled up, you will move to the next rating or level and receive a new pack of cards to add to your collection. <br> <Br> Note that each card is backed by an ERC-721 token. Therefore, you can trade them on the platform’s native marketplace or the open market. Those opting to sell cards within the game ecosystem will receive the platform’s native token, GODS, as payment. It is worth noting that the GODS token has not been officially launched at the time of writing this guide. Be sure to confirm that the development team has released GODS tokens to the crypto market before proceeding to purchase or receive any token marketed as GODS tokens.Learn more in our deep dive on
+              <a href="https://coinmarketcap.com/alexandria/article/what-is-gods-unchained"> Gods Unchained. </a>    
+          </div> 
+        </div>
+
+        <div class="col-md-8 gamestitle">
+          <img class="img-thumbnail" src="images/sandbox.jpeg">
+            <a class="btn btn-warning" data-bs-toggle="collapse" href="#sandinfo" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <h1>3. The Sandbox 3D</h1>
+            </a>
+            <h4> <img  class="img-fluid rounded coinspic" src="images/sandcoin.png">Sand</h4>
+              <p class="prices">$<span id="sandprice"></span></p>
+          
+        </div>
+       
+        <div class="collapse" id="sandinfo">
+          <div class="card card-body">
+            The Sandbox is best known for its two smash mobile hits The Sandbox (2011) and The Sandbox Evolution (2016), which combined generated 40 million downloads across iOS and Android. <Br> <Br> In 2018, developer/Publisher Pixowl decided to bring this successful User Generated Content gaming IP and large community of creators from mobile to the blockchain ecosystem. <bR> <br> The goal: disrupt existing game makers like Minecraft and Roblox by providing creators with true ownership of their creations as non-fungible tokens (NFTs) and reward them for their participation in the ecosystem.<br><br> The Sandbox blockchain gaming platform consists of three integrated products that together provide a comprehensive experience for user-generated content (UGC) production. <Br> <br> The combined products further benefit users by allowing them to secure copyright ownership for their user-created content through blockchain and smart contracts.
+                 
+          </div> 
+        </div>
+
+        <div class="col-md-8 gamestitle">
+          <img class="img-thumbnail" src="images/illuvium.jpg">
+            <a class="btn btn-warning" data-bs-toggle="collapse" href="#illuviuminfo" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <h1>4. Illuvium</h1>
+            </a>
+            <h4> <img  class="img-fluid rounded coinspic" src="images/ilvcoin.png">Ilv</h4>
+              <p class="prices">$<span id="ilvprice"></span></p>
+          
+        </div>
+       
+        <div class="collapse" id="illuviuminfo">
+          <div class="card card-body">
+            Illuvium is an upcoming fantasy role-playing game developed on the Ethereum blockchain by a decentralized autonomous organization (DAO) called the Illuvium DAO. The game was first announced in January of last year and described as “a decentralized, NFT collection and auto battler game built on the Ethereum network.” <Br> <Br>  In Illuvium, players are immersed in a 3D open world to explore and capture deity-like beasts called Illuvials. The Illuvials that players collect are represented with NFTs on Ethereum’s blockchain with real-world value. Players use the Illuvials they have gathered to battle other players to win ether (ETH). <br> <BR> Like any role-playing game, players must customize their character to their liking. From there, it’s time to head out into the world and begin exploring. 
+              Illuvium is an open-world game developed on Unreal Engine 4. This engine allows for detailed regions and environments making it stand out amongst previous blockchain-based games. Once captured, Illuvials and other in-game items will exist in the player’s wallet as NFTs.  There are over 100 Illuvials to find around the open world that belong to different classes with different affinities. Because of this, some Illuvials match well together during battle while others may not. The variation also depends on the opponents’ Illuvials, making for interesting situations and matchups.
+                 
+          </div> 
+        </div>
+
+        <div class="col-md-8 gamestitle">
+          <img class="img-thumbnail" src="images/pegaxy.jpg">
+            <a class="btn btn-warning" data-bs-toggle="collapse" href="#pegainfo" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <h1>5. Pegaxy</h1>
+            </a>
+            <h4> <img  class="img-fluid rounded coinspic" src="images/pgxcoin.png">PGX</h4>
+              <p class="prices">$<span id="pgxprice"></span></p>
+
+              <h4> <img  class="img-fluid rounded coinspic" src="images/vis.png">VIS</h4>
+              <p class="prices">$<span id="visprice"></span></p>
+          
+        </div>
+       
+        <div class="collapse" id="pegainfo">
+          <div class="card card-body">
+            A horse racing simulation in the nonfungible token (NFT) games space is generally being touted as the future of sports betting. The links between betting and gaming have never been stronger than they are in Pegaxy. You put money in, list your horse in a race and hope you place top three for a cash reward. <Br> <Br>  When it comes to gameplay, Pegaxy is almost purely a simulation. Through either renting or purchasing, you acquire a Pega NFT. This is effectively a Tron-like futuristic Pegasus.
+              The Pega come in a range of bloodlines and element classes as well as breed type. A Pega’s performance is affected by these attributes: speed, strength, lightning, wind, water and fire. A Pega’s chances of winning hinge on these attributes based on how well they match with the randomized attributes of the host stadium. <br> <br>  A Pega can race a maximum of 25 times a day, but thankfully there’s no total race limit.
+               Once you’ve selected the Pega, you must pay a nominal gas fee to lodge your intent to enter a race on the blockchain. You’re then pitted against other players with a Pega of a similar class until 12 racers have been stationed.
+              While you wait in the lobby, you can browse other players’ stats, see the race distance and look at the randomized stadium conditions. Think wind and temperature.
+              But from there, you’re pretty much hands-off.
+                 
+          </div> 
+        </div>
+
+        
+      
+      </div>
+    </div>
+    </section>
+
+ <!-- Footer  -->
+
+ <section id="footer">
+  <img src="images/wave2.png" class="footer-img">
+  <div class="container">
+    <h2 class="contacts text-left">NFT GEYMZ</h2>
+    <div class="row footertext">
+        <div class="col-md-4">
+          <h6>Contacts</h6>
+          <p>Street: blk 74 lot 2 19th Street Metrogate <br>City:Dasmarinas <br> Province: Cavite <br> Zipcode:4114 <br> Phone number: 09277705140 <br> Telephone number: 4867768761 </p>
+        </div>
+
+        <div class="col-md-3 home">
+          <h6> <a href="#banner">Home</h6></a>
+          <ul class="list-unstyled text text-black-50">
+            <li><a href="News.html">News</a></li> 
+            <li><a href="trendinggames.html">NFT Games</a></li>
+            <li><a href="trendingcoins.html">NFT Coins</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="reference.html">References</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h6>Follow Us</h6>
+            <div class="input-group"> <input class="form-control" placeholder="Your email address"> <button class="btn btn-primary " onclick="sendEmail()">Weekly Update</button> </div>
+              
+              <div class="socials">
+              <a href="https://www.facebook.com/rkentg/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/rkentg/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/rkentgg"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/rigel-kent-gregorio-127370193/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://www.twitch.tv/rkentg"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+              <a href="https://discord.gg/3eqwTSUx"><i class="fa-brands fa-discord"></i></a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+  <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+    
+</body>
+</html>
