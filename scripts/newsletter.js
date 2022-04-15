@@ -1,4 +1,3 @@
-
 function validateForm() {
 if (!validateEmail(document.getElementById('data_3').value.trim())) {
 alert('Email must be a valid email address!');
